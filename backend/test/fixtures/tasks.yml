@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  assignee: one
+  department: one
+  reviewer: one
+  task_type: 1
+  status: 1
+  expected_end_date: 2025-06-30
+  due_date: 2025-06-30
+  start_date: 2025-06-30
+  is_completed: false
+
+two:
+  title: MyString
+  description: MyText
+  assignee: two
+  department: two
+  reviewer: two
+  task_type: 1
+  status: 1
+  expected_end_date: 2025-06-30
+  due_date: 2025-06-30
+  start_date: 2025-06-30
+  is_completed: false

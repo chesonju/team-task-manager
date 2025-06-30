@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   post "/signup", to: "users#create"
   post "/login", to: "auth#login"
+  resources :tasks, only: [:index, :create, :update, :destroy]
 end
